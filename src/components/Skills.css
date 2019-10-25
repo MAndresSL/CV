@@ -1,0 +1,41 @@
+#subTitle {
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 4vh;
+}
+
+.container {
+    align-content: center;
+    padding-top: 3vh;
+}
+
+#first{
+    padding-top: 0vh !important;
+}
+
+#section{
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.ts-progress-title{
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    font-size: 0.95rem
+}
+
+.progress-bar{
+    background-color: #e9204f;
+    height: 0.2rem;
+    --padding-top: 2vh;
+}
+
+
+.ts-progress-value{
+    padding: .125rem .375rem;
+    position: absolute;
+}

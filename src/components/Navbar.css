@@ -1,0 +1,41 @@
+.navbar {
+    background-color: white !important;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 53px;
+    width: 100%;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 80vmin;
+    margin-bottom: 0;
+}
+
+.nav-link {
+    font-weight: bold;
+    --padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: none;
+}
+
+.collapse{
+    padding-bottom: 0;
+}
+
+.navbar-brand{
+    background-color: #e9204f;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 2.6vh;
+    left: 15vw;
+}
+
+.navbar-brand:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}

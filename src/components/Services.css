@@ -1,0 +1,19 @@
+.icons{
+    width: 8%;
+    height: auto;
+    --background-color: #e9204f;
+}
+
+.service-title{
+    font-size: 1.6rem;
+}
+
+.service-description{
+    text-align: justify;
+    width: 80%;
+}
+
+
+.col-sm{
+    padding-top: 4vh;
+}

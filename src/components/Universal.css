@@ -1,0 +1,9 @@
+html * {
+    font-family: Open Sans;
+    --background-color: #0f111a;
+    color: white;
+}
+
+body {
+    background-color: #0f111a;
+}
