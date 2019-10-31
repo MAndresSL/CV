@@ -1,0 +1,43 @@
+#image {
+    filter: blur(2px) grayscale(100%) brightness(90%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 79px;
+    resize: vertical;
+    min-height: 100%;
+    min-width: 1024px;
+}
+
+.homeInfo {
+    float: left;
+    position: absolute;
+    left: 10vw;
+    top: 30vh;
+    z-index: 1000;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#name {
+    font-size: 5.5rem;
+}
+
+#developer {
+    font-size: 3rem;
+    opacity: 0.8;
+    
+    padding-left: 2vw;
+
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+}
+
+/*@media screen and (max-width: 1024px) {
+    #image {
+        left: 50%;
+        margin-left: -50%;
+        height: auto;
+    }
+}*/

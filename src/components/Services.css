@@ -1,19 +1,38 @@
-.icons{
+.icons {
     width: 8%;
     height: auto;
     --background-color: #e9204f;
 }
 
-.service-title{
+.service-title {
     font-size: 1.6rem;
 }
 
-.service-description{
+.service-description {
     text-align: justify;
-    width: 80%;
+    width: 90%;
 }
 
-
-.col-sm{
+.col-sm {
     padding-top: 4vh;
+    transition: transform 1s ease;
+
+}
+
+.col-sm:hover {
+    transform: scale(1.05);
+    transition: transform 1s ease;
+}
+
+.hoverServices {
+    width: 0;
+    height: 5px;
+    background-color: #0f111a;
+}
+
+.col-sm:hover>.hoverServices {
+    width: 90%;
+    height: 5px;
+    background-color: #e9204f;
+    transition: width 0.5s;
 }
