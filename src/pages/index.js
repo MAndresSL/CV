@@ -7,6 +7,7 @@ import Services from "../components/Services";
 import Home from "../components/Home";
 import SEO from "../components/seo";
 import "../components/Universal.css";
+import Contact from "../components/Contact";
 
 const IndexPage = () => (
   <div>
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Home />
     <Services />
     <Skills />
+    <Contact />
   </div>
 )
 

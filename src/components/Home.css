@@ -41,3 +41,12 @@
         height: auto;
     }
 }*/
+
+@media screen and (max-width: 500px){
+    #name{
+        font-size:4.8rem
+    }
+    #developer{
+        font-size:2.3rem;
+    }
+}
